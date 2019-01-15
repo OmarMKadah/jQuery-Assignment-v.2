@@ -4,3 +4,9 @@ $(document).ready(function() {
     $("#walrus-hidden").toggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $("#confetti-showing").fadeIn ("slow");
+  });
+});
